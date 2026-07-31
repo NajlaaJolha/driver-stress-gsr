@@ -23,6 +23,7 @@ You need Python installed. Then install the required packages:
 pip install -r requirements.txt
 
 How to Run
+
 Option A: Google Colab (Recommended)
 Upload driver_stress_gsr_pipeline.ipynb to Google Colab
 
@@ -40,12 +41,14 @@ jupyter notebook driver_stress_gsr_pipeline.ipynb
 Results will be saved to: ./GSR_Results/
 
 Notebook Structure
+
 Cell	Content
 Cells 1-3	Data loading and visualization
 Cells 4-7	Feature extraction
 Cells 8-17	Classification pipeline
 
 Output
+
 Results are saved to GSR_Results/run_YYYYMMDD_HHMMSS/
 
 binary/ - Binary results
