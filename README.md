@@ -46,19 +46,13 @@ Cells 4-7	Feature extraction
 Cells 8-17	Classification pipeline
 
 Output
-All results are saved to timestamped folders:
+Results are saved to GSR_Results/run_YYYYMMDD_HHMMSS/
 
-GSR_Results/
-└── run_YYYYMMDD_HHMMSS/
-    ├── binary/
-    │   ├── summary_LOSO.csv
-    │   ├── confusion_matrix_best_model_binary.png
-    │   └── ... (other binary results)
-    ├── multiclass/
-    │   ├── summary_LOSO.csv
-    │   ├── confusion_matrix_best_model_multiclass.png
-    │   └── ... (other multiclass results)
-    └── validation_strategy_comparison_full.csv
+binary/ - Binary results
+
+multiclass/ - Multiclass results
+
+validation_comparison.csv - Validation comparison
 
 Citation
 If you use this code, please cite the corresponding paper.
