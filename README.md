@@ -49,16 +49,16 @@ Output
 All results are saved to timestamped folders:
 
 GSR_Results/
-├── run_YYYYMMDD_HHMMSS/
-│   ├── binary/
-│   │   ├── summary_LOSO.csv
-│   │   ├── confusion_matrix_best_model_binary_stress.png
-│   │   └── ...
-│   ├── multiclass/
-│   │   ├── summary_LOSO.csv
-│   │   ├── confusion_matrix_best_model_multiclass.png
-│   │   └── ...
-│   └── validation_strategy_comparison_full.csv
+└── run_YYYYMMDD_HHMMSS/
+    ├── binary/
+    │   ├── summary_LOSO.csv
+    │   ├── confusion_matrix_best_model_binary.png
+    │   └── ... (other binary results)
+    ├── multiclass/
+    │   ├── summary_LOSO.csv
+    │   ├── confusion_matrix_best_model_multiclass.png
+    │   └── ... (other multiclass results)
+    └── validation_strategy_comparison_full.csv
 
 Citation
 If you use this code, please cite the corresponding paper.
