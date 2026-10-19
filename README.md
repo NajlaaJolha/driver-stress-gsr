@@ -65,7 +65,24 @@ Results are saved to `GSR_Results/run_YYYYMMDD_HHMMSS/`
 ## Citation
 If you use this code, please cite the corresponding paper:
 
-Jolha, F., Jolha, N., Al-imam, W. et al. Evaluating the Performance of a GSR-Based Prediction Model for Driver Stress Detection in Naturalistic Driving. Int J Comput Intell Syst (2026). https://doi.org/10.1007/s44196-026-01634-z
+``` bibtex
+@Article{Jolha2026,
+author={Jolha, Firas
+and Jolha, Najlaa
+and Al-imam, Wael
+and Massoud, Rasha},
+title={Evaluating the Performance of a GSR-Based Prediction Model for Driver Stress Detection in Naturalistic Driving},
+journal={International Journal of Computational Intelligence Systems},
+year={2026},
+month={Oct},
+day={14},
+abstract={Detecting driver stress through physiological monitoring is essential for road safety, as elevated arousal can affect attention and decision-making. This study develops and evaluates a prediction model for distinguishing stress-related driving states using Galvanic Skin Response (GSR) alone from hand and foot sensors under naturalistic driving conditions using the public DriveDB dataset. Rest, Highway, and City serve as proxy stress labels; independent ratings are not available in the public release. Ten recordings from at most nine healthy adult drivers were analyzed through artifact removal, preprocessing, and extraction of statistical, skin conductance response (SCR), and spectral features. Using leave-one-subject-out (LOSO) validation, the Extra Trees classifier achieved the best binary performance in separating Rest from stress-related driving, with 85.0{\%} accuracy (95{\%} CI: 77.4{\%}--92.6{\%}), a Macro-F1 score of 0.839 (95{\%} CI: 0.760--0.918), and an AUC of 0.924 (95{\%} CI: 0.865--0.983). For three-class classification, it achieved 65.6{\%} accuracy and a Cohen's kappa of 0.471. Ablation analysis showed that foot GSR alone provided the highest single-sensor performance, reaching 86.6{\%} accuracy and an F1-score of 0.851, outperforming hand-only measurements and achieving comparable results to combined hand--foot GSR. The feature selection procedure chose the same 20 features in every fold. Reducing the feature set from 34 to 20 statistically selected features caused only a minor F1-score reduction (0.850 to 0.839), supporting efficient implementation. These findings suggest that GSR alone, especially foot-based sensing, can separate resting from stress-related driving states in this small dataset. Because labels reflect driving conditions rather than measured stress, and we did not control for physical activity or workload, larger, independently labeled datasets are needed before practical use.},
+issn={1875-6883},
+doi={10.1007/s44196-026-01634-z},
+url={https://doi.org/10.1007/s44196-026-01634-z}
+}
+```
+
 
 
 ## Contact
