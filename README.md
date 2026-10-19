@@ -63,7 +63,10 @@ Results are saved to `GSR_Results/run_YYYYMMDD_HHMMSS/`
 - `validation_comparison.csv` - Validation comparison
 
 ## Citation
-If you use this code, please cite the corresponding paper.
+If you use this code, please cite the corresponding paper:
+
+Jolha, F., Jolha, N., Al-imam, W. et al. Evaluating the Performance of a GSR-Based Prediction Model for Driver Stress Detection in Naturalistic Driving. Int J Comput Intell Syst (2026). https://doi.org/10.1007/s44196-026-01634-z
+
 
 ## Contact
 For questions, please open an issue on GitHub.
